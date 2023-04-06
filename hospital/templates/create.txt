@@ -1,0 +1,15 @@
+  <!-- {% ifequal error 'no' %}
+    <script type="text/javascript">
+        alert('Succesfully signed up')
+        window.location("{% url 'loginpage' %}")
+    </script>
+    {% endifequal %}
+
+    {% ifequal error 'yes' %}
+    <script type="text/javascript">
+        alert('Something went wrong!')
+        window.location("{% url 'loginpage' %}")
+
+    </script>
+    {% endifequal %} -->
+        
